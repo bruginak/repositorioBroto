@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(111, 167, 129);
+}
+/* 
+a:hover {
+  color: blue;
+} */
+
+a:link {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left:15px;
+}
+
+a:visited {
+  color: rgb(245, 218, 188);
+} 
+
+.NavegacionBroto {
+  align-items: center;
+  color: white;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgb(104, 94, 114);
+  padding: 1rem;
+  width: 100vw;
+
+}
+
+.baseFooter {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: x-small;
+  list-style: none;
+  padding: 2rem;
+  color: white;
+  background-color: rgb(72, 128, 173);
+ position: fixed;
+  bottom: 0;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}

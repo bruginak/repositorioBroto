@@ -1,0 +1,61 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+ .TableProduct{
+  display: grid;  
+  border: 4px solid #000000;
+  padding: 10px;
+  /* 3 columnas */
+   grid-template-columns: 300px 300px 300px; 
+      /* 1 fila */
+   grid-template-rows: 40px;
+   grid-area: 15px;
+
+ }
+
+/*MEDIAQUERIE*/
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(138, 32, 32);
+  }
+
+  /* .baseFooter {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1rem;
+    color: white;
+  } */
+}
+
+@media screen and (min-width: 1080px) {
+  body {
+    background-color: rgb(238, 177, 177);
+  }
+ 
+  
+ .TableProduct{
+  display: grid; 
+  border: 2px solid #000000;
+  padding: 10px;
+  /* 3 columnas */
+   grid-template-columns: 300px 300px 300px; 
+      /* 1 fila */
+   grid-template-rows: 40px;
+   grid-area: 15px;
+
+ }
+
+  .baseFooter {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1rem;
+    color: white;
+  } 
+
+}

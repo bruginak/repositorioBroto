@@ -1,0 +1,36 @@
+* {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*MEDIAQUERIE*/
+@media screen and (min-width: 768px) {
+    body {
+      background-color: rgb(160, 132, 173);
+    }
+  
+   .baseFooter {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      padding: 1rem;
+      color: white;
+    } 
+  }
+  
+  @media screen and (min-width: 1080px) {
+    body {
+      background-color: rgb(238, 177, 177);
+    }
+  
+    .baseFooter {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      padding: 1rem;
+      color: white;
+    } 
+  }
+  
