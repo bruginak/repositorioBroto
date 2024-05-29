@@ -1,70 +1,28 @@
 * {
-    margin:  0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  }
-
- .TableProduct{
-   /* display: grid; */
-    /* border: 0px solid #000000; */
+.TableProduct {
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
   margin-bottom: 20px 20px;
-  /* 3 columnas */
-   /* grid-template-columns: 300px 300px 300px;  */
-      /* 1 fila */
-   /* grid-template-rows: 40px; */
-   /* grid-area: 15px; */
-  /* column-gap: 10px; */
+}
 
- }
- .section00{
-    display: flex;
-  flex-direction: column;
-  width: auto;
-  border: 2px solid #000000;
-    border: 4px solid #000000;
-    padding: 1rem;
-    margin: 20px 20px;
-  
- }
- 
- /*MEDIAQUERIE*/
+.section00 {
+   display: flex;
+  border: 4px solid #000000;
+  padding: 1rem;
+  margin: 20px 20px;
+}
+
+/*MEDIAQUERIE*/
 @media screen and (min-width: 768px) {
   body {
-    background-color: rgb(138, 32, 32);
+    background-color: rgb(160, 132, 173);
   }
-
-  /* .baseFooter {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 1rem;
-    color: white;
-  } */
-}
-.section00{
-  display: flex;
-  flex-direction: row;
- }
-
-@media screen and (min-width: 1080px) {
-  body {
-    background-color: rgb(238, 177, 177);
-  }
- 
-  
- .TableProduct{
-  display: grid; 
-  border: 2px solid #000000;
-  padding: 10px;
-  /* 3 columnas */
-   grid-template-columns: 300px 300px 300px; 
-      /* 1 fila */
-   grid-template-rows: 40px;
-   grid-area: 15px;
-
- }
 
   .baseFooter {
     display: flex;
@@ -72,6 +30,33 @@
     list-style: none;
     padding: 1rem;
     color: white;
-  } 
+  }
+}
 
+@media screen and (min-width: 1080px) {
+  body {
+    background-color: rgb(238, 177, 177);
+  }
+
+  .TableProduct {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin-bottom: 20px 20px;
+  }
+  .section00 {
+   
+    border: 4px solid #3836aa;
+    padding: 1rem;
+    margin: 20px 20px;
+    justify-content: space-around;
+  }
+
+  .baseFooter {
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+    padding: 1rem;
+    color: white;
+  }
 }
