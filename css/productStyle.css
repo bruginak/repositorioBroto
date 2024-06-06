@@ -7,8 +7,10 @@
 .TableProduct {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   padding: 2rem;
   margin-bottom: 20px 20px;
+
 }
 
 .section00 {
@@ -18,6 +20,10 @@
   margin: 20px 20px;
 }
 
+.Imgcuader{
+  height: 20rem;
+
+}
 /*MEDIAQUERIE*/
 @media screen and (min-width: 768px) {
   body {
