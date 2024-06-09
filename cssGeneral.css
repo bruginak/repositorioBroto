@@ -36,6 +36,11 @@ a:visited {
 
 }
 
+#volver{
+  align-items:start;
+
+}
+
 .baseFooter {
   display: flex;
   flex-direction: column;
