@@ -13,34 +13,63 @@ a:hover {
 } */
 
 a:link {
-  color: white;
+  color: rgb(95, 95, 95);
   text-decoration: none;
   margin-right: 15px;
   margin-left:15px;
 }
 
 a:visited {
-  color: rgb(245, 218, 188);
+  color:  rgb(95, 95, 95);
 } 
 
+a:hover{
+  color: rgb(123, 206, 28);
+}
+
+
+/* -------------------------------
 .NavegacionBroto {
+  padding: 1rem;
+  width: 100vw;
+  font-size:small;
+  font-family: "lato";
+  font-weight: bold;
   align-items: center;
-  color: white;
   display: flex;
   list-style: none;
   flex-direction: row;
   justify-content: flex-end;
-  background-color: rgb(104, 94, 114);
+  background-color: rgb(255, 255, 255);
+
+  }
+-------------------------------- */
+
+/* #volver{
+  align-items:
+ position: relative;
+
+} */
+
+
+/* menuArriba */
+.NavegacionBroto {
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   width: 100vw;
+  font-size:small;
+  font-family: "lato";
+  font-weight: bold;
+  align-items: center;
+  list-style: none;
+  /* justify-content: flex-end; */
+  background-color: rgb(255, 255, 255);
+  
 
-}
+  }
 
-#volver{
-  align-items:start;
-
-}
-
+/*Footer */
 .baseFooter {
   display: flex;
   flex-direction: column;
@@ -50,10 +79,15 @@ a:visited {
   list-style: none;
   padding: 2rem;
   color: white;
-  background-color: rgb(72, 128, 173);
- position: fixed;
+  background-color: rgb(95, 95, 95);
   bottom: 0;
   width: 100vw;
   justify-content: space-around;
   align-items: center;
-}
+  position: fixed;
+  }
+
+  a.liksFooter{
+    color: rgb(255, 255, 255);
+    padding: 2px;
+  }

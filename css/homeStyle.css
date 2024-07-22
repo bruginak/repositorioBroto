@@ -21,10 +21,32 @@
   }
   
   @media screen and (min-width: 1080px) {
+
+    
+#volver{
+  align-items:start;
+  /* position: relative; */
+
+}
     body {
       background-color: rgb(238, 177, 177);
     }
   
+    .NavegacionBroto {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding: 1rem;
+      width: 100vw;
+      font-size:small;
+      font-family: "lato";
+      font-weight: bold;
+      /* align-items: center; */
+      list-style: none;
+      background-color: rgb(255, 255, 255);
+    
+      }
+
     .baseFooter {
       display: flex;
       flex-direction: row;
@@ -32,5 +54,10 @@
       padding: 1rem;
       color: white;
     } 
+    
+  a.liksFooter{
+    color: rgb(255, 255, 255);
+    padding: 2px;
+  }
   }
   

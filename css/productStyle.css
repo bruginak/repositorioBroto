@@ -13,22 +13,37 @@
 
 }
 
+.Imgcuader{
+  height: 20rem;
+}
+
 .section00 {
-   display: flex;
+  display: flex;
   border: 4px solid #000000;
   padding: 1rem;
   margin: 20px 20px;
-}
-
-.Imgcuader{
-  height: 20rem;
-
 }
 /*MEDIAQUERIE*/
 @media screen and (min-width: 768px) {
   body {
     background-color: rgb(160, 132, 173);
   }
+
+  
+  .NavegacionBroto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1rem;
+    width: 100vw;
+    font-size:small;
+    font-family: "lato";
+    font-weight: bold;
+    /* align-items: center; */
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+  
+    }
 
   .baseFooter {
     display: flex;
@@ -64,5 +79,11 @@
     list-style: none;
     padding: 1rem;
     color: white;
+  }
+
+  
+  a.liksFooter{
+    color: rgb(255, 255, 255);
+    padding: 2px;
   }
 }
