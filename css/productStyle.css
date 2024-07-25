@@ -28,7 +28,12 @@
   body {
     background-color: rgb(160, 132, 173);
   }
+}
 
+@media screen and (min-width: 1080px) {
+  body {
+    background-color: rgb(238, 177, 177);
+  }
   
   .NavegacionBroto {
     display: flex;
@@ -39,25 +44,9 @@
     font-size:small;
     font-family: "lato";
     font-weight: bold;
-    /* align-items: center; */
     list-style: none;
     background-color: rgb(255, 255, 255);
-  
-    }
-
-  .baseFooter {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 1rem;
-    color: white;
-  }
-}
-
-@media screen and (min-width: 1080px) {
-  body {
-    background-color: rgb(238, 177, 177);
-  }
+      }
 
   .TableProduct {
     display: flex;
@@ -66,7 +55,6 @@
     margin-bottom: 20px 20px;
   }
   .section00 {
-   
     border: 4px solid #3836aa;
     padding: 1rem;
     margin: 20px 20px;
@@ -81,9 +69,4 @@
     color: white;
   }
 
-  
-  a.liksFooter{
-    color: rgb(255, 255, 255);
-    padding: 2px;
-  }
 }

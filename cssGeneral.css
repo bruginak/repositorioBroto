@@ -4,49 +4,25 @@
   box-sizing: border-box;
 }
 
+/* CSS Mobile First min-width 480 */
+
 body {
   background-color: rgb(111, 167, 129);
 }
-
 a:link {
   color: rgb(95, 95, 95);
   text-decoration: none;
   margin-right: 15px;
-  margin-left:15px;
+  margin-left: 15px;
 }
 
 a:visited {
-  color:  rgb(95, 95, 95);
-} 
-
-a:hover{
-  color: rgb(194, 22, 180);
+  color: rgb(95, 95, 95);
 }
 
-
-/* -------------------------------
-.NavegacionBroto {
-  padding: 1rem;
-  width: 100vw;
-  font-size:small;
-  font-family: "lato";
-  font-weight: bold;
-  align-items: center;
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  justify-content: flex-end;
-  background-color: rgb(255, 255, 255);
-
-  }
--------------------------------- */
-
-/* #volver{
-  align-items:
- position: relative;
-
-} */
-
+a:hover {
+  color: rgb(194, 22, 180);
+}
 
 /* menuArriba */
 .NavegacionBroto {
@@ -54,16 +30,16 @@ a:hover{
   flex-direction: column;
   padding: 0.5rem;
   width: 100vw;
-  font-size:small;
+  font-size: small;
   font-family: "lato";
   font-weight: bold;
   align-items: center;
   list-style: none;
-  /* justify-content: flex-end; */
   background-color: rgb(255, 255, 255);
-  
+}
 
-  }
+#volver {
+  margin-top: 1rem;}
 
 /*Footer */
 .baseFooter {
@@ -81,9 +57,9 @@ a:hover{
   justify-content: space-around;
   align-items: center;
   position: fixed;
-  }
+}
 
-  a.liksFooter{
-    color: rgb(255, 255, 255);
-    padding: 2px;
-  }
+a.liksFooter {
+  color: rgb(255, 255, 255);
+  padding: 2px;
+}
