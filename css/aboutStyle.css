@@ -18,38 +18,14 @@
 
 /*MEDIAQUERIE*/
 @media screen and (min-width: 768px) {
-  body {
-    background-color: rgb(160, 132, 173);
-  }
-  }
+    }
 
 @media screen and (min-width: 1080px) {
-  body {
-    background-color: rgb(238, 177, 177);
-  }
+ 
   .imgIndex {
     padding: 15px;
     width: 80rem;
   }
   
-  .NavegacionBroto {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 1rem;
-    width: 100vw;
-    font-size: small;
-    font-family: "lato";
-    font-weight: bold;
-    list-style: none;
-    background-color: rgb(255, 255, 255);
-  }
-
-  .baseFooter {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 1rem;
-    color: white;
-  }
+  
 }

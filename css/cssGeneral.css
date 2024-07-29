@@ -27,7 +27,7 @@ a:hover {
 /* menuArriba */
 .NavegacionBroto {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding: 0.5rem;
   width: 100vw;
   font-size: small;
@@ -39,7 +39,9 @@ a:hover {
 }
 
 #volver {
-  margin-top: 1rem;}
+   margin-top: 1rem;
+    align-items: start;
+}
 
 /*Footer */
 .baseFooter {
@@ -49,7 +51,7 @@ a:hover {
   font-weight: bold;
   font-size: x-small;
   list-style: none;
-  padding: 2rem;
+  padding: 1rem;
   color: white;
   background-color: rgb(95, 95, 95);
   bottom: 0;
@@ -62,4 +64,43 @@ a:hover {
 a.liksFooter {
   color: rgb(255, 255, 255);
   padding: 2px;
+}
+
+/*MEDIAQUERIE*/
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(160, 132, 173);
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  body {
+    background-color: rgb(238, 177, 177);
+  }
+
+  #volver {
+    align-items: start;
+    /* position: relative; */
+  }
+
+  .NavegacionBroto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1rem;
+    width: 100vw;
+    font-size: small;
+    font-family: "lato";
+    font-weight: bold;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+  }
+
+   .baseFooter {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1rem;
+    color: white;
+  }
 }

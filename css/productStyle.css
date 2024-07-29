@@ -25,48 +25,23 @@
 }
 /*MEDIAQUERIE*/
 @media screen and (min-width: 768px) {
-  body {
-    background-color: rgb(160, 132, 173);
-  }
+ 
 }
 
 @media screen and (min-width: 1080px) {
-  body {
-    background-color: rgb(238, 177, 177);
-  }
-  
-  .NavegacionBroto {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 1rem;
-    width: 100vw;
-    font-size:small;
-    font-family: "lato";
-    font-weight: bold;
-    list-style: none;
-    background-color: rgb(255, 255, 255);
-      }
-
-  .TableProduct {
+   .TableProduct {
     display: flex;
     flex-direction: row;
     padding: 2rem;
     margin-bottom: 20px 20px;
   }
   .section00 {
-    border: 4px solid #3836aa;
+    border: 4px solid #a655ad;
     padding: 1rem;
     margin: 20px 20px;
     justify-content: space-around;
   }
 
-  .baseFooter {
-    display: flex;
-    flex-direction:row;
-    list-style: none;
-    padding: 1rem;
-    color: white;
-  }
+  
 
 }
